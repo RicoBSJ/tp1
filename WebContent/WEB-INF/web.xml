@@ -14,10 +14,10 @@
 
 	<servlet-mapping>
 		<servlet-name>CreationClient</servlet-name>
-		<url-pattern>/creationClient</url-pattern>
+		<url-pattern>/creerClient</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>CreationCommande</servlet-name>
-		<url-pattern>/creationCommande</url-pattern>
+		<url-pattern>/creerCommande</url-pattern>
 	</servlet-mapping>
 </web-app>
