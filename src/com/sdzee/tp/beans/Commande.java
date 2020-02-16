@@ -1,7 +1,6 @@
 package com.sdzee.tp.beans;
 
 public class Commande {
-
 	/* Propriétés du bean */
 	private Client client;
 	private String date;

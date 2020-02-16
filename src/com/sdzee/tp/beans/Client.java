@@ -1,7 +1,6 @@
 package com.sdzee.tp.beans;
 
 public class Client {
-
 	/* Propriétés du bean */
 	private String nom;
 	private String prenom;
@@ -9,28 +8,28 @@ public class Client {
 	private String telephone;
 	private String email;
 
-	public String getNom() {
-		return nom;
-	}
-
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
 
-	public String getPrenom() {
-		return prenom;
+	public String getNom() {
+		return nom;
 	}
 
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
 
-	public String getAdresse() {
-		return adresse;
+	public String getPrenom() {
+		return prenom;
 	}
 
 	public void setAdresse(String adresse) {
 		this.adresse = adresse;
+	}
+
+	public String getAdresse() {
+		return adresse;
 	}
 
 	public String getTelephone() {
@@ -41,11 +40,11 @@ public class Client {
 		this.telephone = telephone;
 	}
 
-	public String getEmail() {
-		return email;
-	}
-
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getEmail() {
+		return email;
 	}
 }
