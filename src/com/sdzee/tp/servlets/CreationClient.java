@@ -28,8 +28,8 @@ public class CreationClient extends HttpServlet {
 		 * formulaire n'est pas renseigné, alors on affiche un message d'erreur, sinon
 		 * on affiche un message de succès
 		 */
-		if (nom.trim().isEmpty() || adresse.trim().isEmpty() || telephone.trim().isEmpty()) {
-			message = "Erreur - Vous n'avez pas rempli tous les champs obligatoires. <br> <a href=\"creerClient.jsp\">Cliquez ici</a> pour accéder au formulaire de création d'un client.";
+		if (nom == null || adresse == null || telephone == null) {
+			message = "Erreur - Vous n'avez pas rempli tous les champs obligatoires. <br><a href=\"creerClient.jsp\">Cliquez ici</a> pour accéder au formulaire de création d'un client.";
 		} else {
 			message = "Client créé avec succès !";
 		}

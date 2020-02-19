@@ -51,8 +51,8 @@ public class CreationCommande extends HttpServlet {
 		 * formulaire n'est pas renseigné, alors on affiche un message d'erreur, sinon
 		 * on affiche un message de succès
 		 */
-		if (nom.trim().isEmpty() || adresse.trim().isEmpty() || telephone.trim().isEmpty() || montant == -1
-				|| modePaiement.isEmpty() || modeLivraison.isEmpty()) {
+		if (nom == null || adresse == null || telephone == null || montant == -1 || modePaiement == null
+				|| modeLivraison == null) {
 			message = "Erreur - Vous n'avez pas rempli tous les champs obligatoires. <br> <a href=\"creerCommande.jsp\">Cliquez ici</a> pour accéder au formulaire de création d'une commande.";
 		} else {
 			message = "Commande créée avec succès !";
