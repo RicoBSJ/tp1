@@ -37,7 +37,7 @@ public class CreationCommande extends HttpServlet {
 
     public static final String FORMAT_DATE            = "dd/MM/yyyy HH:mm:ss";
 
-    public static final String VUE                    = "/afficherCommande.jsp";
+    public static final String VUE                    = "/WEB-INF/jsp/afficherCommande.jsp";
 
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
         /*

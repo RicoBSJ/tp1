@@ -24,7 +24,7 @@ public class CreationClient extends HttpServlet {
     public static final String ATT_MESSAGE      = "message";
     public static final String ATT_ERREUR       = "erreur";
 
-    public static final String VUE              = "/afficherClient.jsp";
+    public static final String VUE              = "/WEB-INF/jsp/afficherClient.jsp";
 
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException {
         /*
